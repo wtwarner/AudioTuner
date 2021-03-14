@@ -53,10 +53,9 @@ public:
     AudioTuner( void ) : AudioStream( 1, inputQueueArray ),
     data( 0.0 ),
     coeff_p( NULL ),
-    enabled( false ),
+    coeff_size( 0 ),
     new_output( false ),
-    coeff_size( 0 )
-    
+    enabled( false )
     {
         
     }
